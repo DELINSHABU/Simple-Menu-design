@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* margin: 0%;
+    padding: 0%; */
+}
+h1{
+    font-size: 7vh;
+    font-family: 'Playfair Display', 'Montserrat';
+    color: #533128;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.topdiv{
+    text-align: center;
+    margin: 6vh;
+}
+.fooddiv{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+}
+img{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 10%;
+    margin-left: 4vh ;
+    margin-right: 4vh ;
+    margin-top: 0vh ;
+    margin-bottom: 0vh ;
+}
+.imgdiv{
+    margin: 1vh;
+    text-align: center;
+}
+.imgdiv:hover{
+    margin: 1vh;
+    text-align: center;
+}
+p{
+    font-size: 2.3vh;
+}
+h2{
+    /* margin-left: 3vh; */
+}
+@media screen and (max-width: 1080px){
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        margin: -1vh;
+        font-size: .7rem;
+    }
+    .topdiv{
+        text-align: center;
+        margin: 1vh;
+        margin-left:3vh ;
+        margin-right:3vh ;
+    }
+    img{
+        width: 17vh;
+        height: 17vh;
+        margin-left: 1vh ;
+        margin-right: 1vh ;
+        margin-top: 0vh ;
+        margin-bottom: 0vh ;
+    }
+    h2{
+        font-size: 2vh;
+        /* margin-left: 2vh; */
+    }
+}
+.textinfood{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0vh 3vh 0vh 3vh;
+}
+.bottomnavbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #533128;
+    margin: 0%;
+    padding: 0%;
+}
+.bottomnavbar p{
+    color: white;
+    margin: 0%;
+    padding: 0%;
+}
